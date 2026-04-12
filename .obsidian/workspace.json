@@ -94,8 +94,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/开发环境搭建及团队开发流程说明(项目开发指南).md",
-                "collapseAll": false,
+                "file": "README.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "开发环境搭建及团队开发流程说明(项目开发指南) 的反向链接列表"
+              "title": "README 的反向链接列表"
             }
           },
           {
@@ -156,21 +156,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/开发环境搭建及团队开发流程说明(项目开发指南).md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "开发环境搭建及团队开发流程说明(项目开发指南) 的大纲"
+              "title": "README 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,9 +186,10 @@
   "active": "75578207009a26dd",
   "lastOpenFiles": [
     "docs/开发环境搭建及团队开发流程说明(项目开发指南).md",
+    "docs/校园bbs开发技术文档.pdf",
+    "README.md",
     "VibeCampus-Backend/src/main/resources/application.yml",
     "docs/校园bbs开发技术文档.md",
-    "docs/校园bbs开发技术文档.pdf",
     "VibeCampus-AdminPanel",
     "新建文件夹",
     "VibeCampus-Frontend",
@@ -197,7 +198,6 @@
     "VibeCampus-Backend/src/main/java/cn/ayeez/vibecampusbackend/VibeCampusBackendApplication.java",
     "VibeCampus-Backend/src/test/java/cn/ayeez/vibecampusbackend/VibeCampusBackendApplicationTests.java",
     "VibeCampus-Backend/src/main/java/cn/ayeez/vibecampusbackend",
-    "VibeCampus-Backend/src/test/java/cn/ayeez/vibecampusbackend",
-    "README.md"
+    "VibeCampus-Backend/src/test/java/cn/ayeez/vibecampusbackend"
   ]
 }
