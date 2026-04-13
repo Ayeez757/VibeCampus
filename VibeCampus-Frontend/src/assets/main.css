@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1772F6;
+  --color-primary-dark: #0d65e8;
+  --color-primary-light: #d6e8ff;
+  --color-bg: #F6F6F6;
+  --color-card: #ffffff;
+  --color-border: #EBEBEB;
+  --color-text: #1A1A1A;
+  --color-muted: #8590A6;
+
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  background-color: #F6F6F6;
+  color: #1A1A1A;
+  line-height: 1.6;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+/* Header 下拉：关怀版 / 无障碍 */
+html.care-mode {
+  font-size: 17px;
+}
+
+html.care-mode body {
+  line-height: 1.75;
+}
+
+html.a11y-mode :focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
