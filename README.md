@@ -84,6 +84,21 @@ VibeCampus/
 
 ---
 
+## 本地快速开始（后端 + MySQL）
+
+后端默认使用 `local` Profile（见 `VibeCampus-Backend/vibecampus-bootstrap/src/main/resources/application.yml`），本地运行前需要准备 MySQL 与本地配置文件。
+
+- **初始化数据库（推荐脚本一键完成建库 + 建表）**：
+  - 执行：`schema.mysql.sql`
+  - 该脚本会创建数据库 `vibecampus` 并创建所有业务表。
+- **本地数据源配置**：
+  - 位置：`VibeCampus-Backend/vibecampus-bootstrap/src/main/resources/`
+  - 复制：`application-local.example.yml` → `application-local.yml`
+  - 填写本机 MySQL 的 `username/password`（`application-local.yml` 已被 `.gitignore` 忽略，**不要提交**）
+- **启动后端**：
+  - 运行 `vibecampus-bootstrap` 模块中的 `cn.ayeez.vibecampus.VibeCampusApplication`
+
+更完整步骤与三环境（local/test/prod）配置说明见：[《项目开发指南》](<docs/开发环境搭建及团队开发流程说明(项目开发指南).md>)。
 
 ## 参与贡献
 
